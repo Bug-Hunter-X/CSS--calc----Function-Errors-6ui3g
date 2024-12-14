@@ -1,0 +1,1 @@
+The CSS property `calc()` is used to perform calculations within CSS.  However, if you use `calc()` with percentages and lengths together without proper spacing or if there are syntax errors, it can lead to unexpected results or rendering issues. For example, `width:calc(50% -10px);` will not work correctly, while `width:calc(50% - 10px);` will.
